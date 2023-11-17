@@ -7,8 +7,8 @@ frontend:
         - corepack enable && npx --yes nypm install
     build:
       commands:
-        - pnpm generate
+        - pnpm build
   artifacts:
-    baseDirectory: ".output/public"
+    baseDirectory: .amplify-hosting
     files:
       - "**/*"
