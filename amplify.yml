@@ -7,7 +7,7 @@ frontend:
         - corepack enable && npx --yes nypm install
     build:
       commands:
-        - pnpm build
+        - pnpm generate
   artifacts:
     baseDirectory: ".output/public"
     files:
