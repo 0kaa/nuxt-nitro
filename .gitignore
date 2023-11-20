@@ -6,6 +6,7 @@
 .cache
 dist
 pnpm-lock.yaml
+.amplify-hosting
 
 # Node dependencies
 node_modules
